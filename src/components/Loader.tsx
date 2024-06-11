@@ -26,7 +26,7 @@ export default function Loader() {
 
     //한번에 여러개의 api가 호출되는 것을 방지하기 위한 시간지연
     setTimeout(() => {
-      setLoading(true);
+      setLoading(false);
     }, 300);
   }, [inView, movies]);
 
